@@ -1,0 +1,17 @@
+{
+    "name": "monorepo_example",
+    "private": true,
+    "workspaces": {
+      "packages": [
+        "packages/*"
+      ],
+      "nohoist": []
+    },
+    "dependencies": {
+      "react": "16.9.0",
+      "react-native": "0.61.5"
+    },
+    "devDependencies": {
+      "metro-react-native-babel-preset": "^0.57.0"
+    }
+  }
